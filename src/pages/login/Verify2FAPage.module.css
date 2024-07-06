@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
+.verifyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eef2f3;
+  font-family: "Inika", serif;
+}
+
+.verifyBox {
+  background: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.inputGroup {
+  margin-bottom: 1rem;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.inputGroup input {
+  font-family: "Inika", serif;
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #dddddd;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #333333;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.verifyButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #053364;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+  font-family: "Inika", serif;
+}
+
+.verifyButton:hover {
+  background-color: #0056b3;
+}
