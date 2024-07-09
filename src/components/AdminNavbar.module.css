@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+
+.inika-font {
+  font-family: "Inika", serif;
+}
+
+.navbar {
+  background-color: #40057b; /* Darker background color for a sleeker look */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inika", serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adding a slight shadow for depth */
+  position: relative;
+}
+
+.title {
+  color: #f39c12; /* A softer orange for a modern look */
+  font-size: 1.8rem; /* Slightly larger font size */
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem; /* Increased gap between links */
+}
+
+.navLinks li {
+  color: #ecf0f1; /* A lighter white color for better contrast */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navLinks li a {
+  text-decoration: none; /* Removing underline from links */
+  color: inherit;
+}
+
+.navLinks li:hover {
+  color: #f39c12; /* Orange color on hover */
+}
+
+.logout {
+  background-color: #e74c3c; /* A red color to emphasize the logout button */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Inika", serif;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.logout:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Mobile Menu Toggle */
+.menuToggle {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ecf0f1;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .navLinks {
+    display: none;
+    flex-direction: column;
+    background-color: #40057b;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    gap: 0;
+  }
+
+  .navLinks.active {
+    display: flex;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+}
