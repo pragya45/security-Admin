@@ -1,0 +1,27 @@
+.container {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 80px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Inika", serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
